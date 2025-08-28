@@ -30,17 +30,17 @@ latest_posts:
 
 Welcome to my page! I'm thrilled to have you here, sending you my warmest and most heartfelt greetings! 👋
 
-I'm Xingsheng Yang (杨兴胜), an explorer with an immense passion for Operations Management and Data Science. I hold an MSc in Computer Science from ShanghaiTech University (2024 cohort), and dual Bachelor's degrees in Computer Science and Financial Engineering from Sichuan University. I'm excited to soon begin my Ph.D. in Data Science at City University of Hong Kong (CityU)! 🎓
+I'm Xingsheng Yang (杨兴胜), an explorer with an immense passion for Data Science in Business. I joined the PhD program in Data Science at City University of Hong Kong (CityU) in 2025, co-supervised by Prof. [Xiao Qiao](https://sites.google.com/site/xiaoqiao10/) and Prof. [Jing Wu](https://www.jingwulab.org/). I hold an MSc in Computer Science from ShanghaiTech University (2024 cohort), and dual Bachelor's degrees in Computer Science and Financial Engineering from Sichuan University. 🎓
 
 I'm eager to contribute my efforts in the following areas:
 1. Innovation in Global Supply Chains. 🌍
-2. Text Mining-Driven Operations Management - Finance Interface. 📊
+2. Operations Management - Finance Interface. 📊
 3. Science of Science & Scientometrics. 🔬
 
-Currently, I'm working as a Research Assistant at The Chinese University of Hong Kong, where I have the privilege of conducting cutting-edge research under the supervision of Prof. [Jing Wu](https://www.jingwulab.org/) and Prof. [Yimeng Niu](https://www.tilburguniversity.edu/staff/y-niu). My academic journey has also involved active collaborations with distinguished scholars, including Prof. [Su Wang](https://sites.google.com/site/suwangwebpage/home), Prof. [Suhong Hong](https://sutinghong.site/), Prof. [Ling Zhong](https://www.ling-zhong.com/) and Prof. [Fengnan Gao](https://gaofn.xyz/). These invaluable experiences have greatly enriched my knowledge. 
+<!-- Currently, I'm working as a Research Assistant at The Chinese University of Hong Kong, where I have the privilege of conducting cutting-edge research under the supervision of Prof. [Jing Wu](https://www.jingwulab.org/) and   -->
+My academic journey has involved active collaborations with distinguished scholars, including Prof. [Yimeng Niu](https://www.tilburguniversity.edu/staff/y-niu), Prof. [Su Wang](https://sites.google.com/site/suwangwebpage/home), Prof. [Suhong Hong](https://sutinghong.site/), Prof. [Ling Zhong](https://www.ling-zhong.com/) and Prof. [Fengnan Gao](https://gaofn.xyz/). These invaluable experiences have greatly enriched my knowledge.
 
 If you're interested in my research areas or would like to explore potential collaboration opportunities, please don't hesitate to reach out! I'm truly looking forward to connecting with you and creating more possibilities together! 🤝
-
 
 
 Miscellaneous:
