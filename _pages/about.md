@@ -6,8 +6,8 @@ permalink: /
 
 profile:
   align: right
-  image: new.jpg 
-  image_hover: new.jpg  # hover时显示的图片
+  image: new.png 
+  image_hover: new.png  # hover时显示的图片
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -36,9 +36,10 @@ I'm eager to contribute my efforts in the following areas:
 <!-- 1. Innovation in Global Supply Chains. 🌍 -->
 1. Operations Management - Finance Interface. 📊
 2. LLMs and AI Agents in Business. 🤖
-3. Science of Science & Scientometrics. 🔬
+3. Science of Science. 🔬
 
-My academic journey has involved active collaborations with distinguished scholars, including Prof. [Yimeng Niu](https://www.tilburguniversity.edu/staff/y-niu), Prof. [Su Wang](https://sites.google.com/site/suwangwebpage/home), Prof. [Suhong Hong](https://sutinghong.site/), Prof. [Ling Zhong](https://www.ling-zhong.com/) and Prof. [Fengnan Gao](https://gaofn.xyz/). These invaluable experiences have greatly enriched my knowledge.
+My academic journey has involved active collaborations with distinguished scholars, including Prof. [Yimeng Niu](https://www.tilburguniversity.edu/staff/y-niu), Prof. [Haipeng Zhang](https://faculty.sist.shanghaitech.edu.cn/zhanghp/), Prof. [Su Wang](https://sites.google.com/site/suwangwebpage/home), Prof. [Suhong Hong](https://sutinghong.site/), and Prof. [Ling Zhong](https://www.ling-zhong.com/). These invaluable experiences have greatly enriched my knowledge.
+<!--  and Prof. [Fengnan Gao](https://gaofn.xyz/) -->
 
 If you're interested in my research areas or would like to explore potential collaboration opportunities, please don't hesitate to reach out! I'm truly looking forward to connecting with you and creating more possibilities together! 🤝
 

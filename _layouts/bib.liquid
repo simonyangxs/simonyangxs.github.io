@@ -48,7 +48,23 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    {% assign title_url = null %}
+    {% if entry.website %}
+      {% assign title_url = entry.website %}
+    {% elsif entry.html and entry.html contains '://' %}
+      {% assign title_url = entry.html %}
+    {% elsif entry.doi %}
+      {% assign title_url = entry.doi | prepend: 'https://doi.org/' %}
+    {% elsif entry.arxiv %}
+      {% assign title_url = entry.arxiv | prepend: 'http://arxiv.org/abs/' %}
+    {% endif %}
+    <div class="title">
+      {% if title_url %}
+        <a href="{{ title_url }}">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       With
@@ -164,6 +180,7 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% assign entrymonth = "" %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
@@ -178,7 +195,7 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entrymonth != "" %}, {% endif %}{{ entrymonth }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entrymonth != blank %}, {% endif %}{{ entrymonth }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
@@ -199,18 +216,8 @@
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
-      {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
-      {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      {% endif %}
-      {% if entry.html %}
-        {% if entry.html contains '://' %}
-          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
-        {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
-        {% endif %}
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
@@ -253,6 +260,9 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
+      {% if entry.website2 %}
+        <a href="{{ entry.website2 }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
