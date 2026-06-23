@@ -1,3 +1,11 @@
+"MSOM":
+  url: https://pubsonline.informs.org/journal/msom
+  color: "#003366"
+
+"Scientometrics":
+  url: https://www.springer.com/journal/11192
+  color: "#0066b3"
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"

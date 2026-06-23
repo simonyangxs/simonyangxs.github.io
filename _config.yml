@@ -263,8 +263,8 @@ display_categories: [] # disabled - using external blog
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yang]
+  first_name: [Xingsheng]
 
   style: apa
   locale: en
